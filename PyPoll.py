@@ -22,6 +22,8 @@ with open (file_to_load) as election_data:
       # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
       
-      # Read adn print the header row
+      
+      
+      # Read and print the header row
     headers = next (file_reader)
     print(headers)
